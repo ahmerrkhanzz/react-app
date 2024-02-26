@@ -1,8 +1,8 @@
 // PascalCasing
 function Message() {
-    const name = 'John';
+    const name = 'Max';
     if (name)
-        return <h2>Hello {name}</h2>;
+        return <h2 className=" text-blue-400">Hello {name}</h2>;
     return <h2>Hello World!</h2>;
 }
 
